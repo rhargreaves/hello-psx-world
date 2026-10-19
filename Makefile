@@ -5,11 +5,11 @@ all: iso
 build:
 	cargo build --release
 
-LICENSE ?= $(firstword $(wildcard licenses/*.dat))
-LICENSE_FLAG = $(if $(LICENSE),-L $(LICENSE),)
+LICENCE ?= $(firstword $(wildcard licences/*.dat))
+LICENCE_FLAG = $(if $(LICENCE),-L $(LICENCE),)
 
 iso: build
-	mkpsxiso -y $(LICENSE_FLAG) iso.xml
+	mkpsxiso -y $(LICENCE_FLAG) iso.xml
 
 clean:
 	cargo clean
