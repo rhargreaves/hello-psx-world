@@ -5,9 +5,12 @@ all: iso
 build:
 	cargo build --release
 
+LICENSE ?= $(firstword $(wildcard licenses/*.dat))
+LICENSE_FLAG = $(if $(LICENSE),-L $(LICENSE),)
+
 iso: build
-	mkpsxiso -y iso.xml
+	mkpsxiso -y $(LICENSE_FLAG) iso.xml
 
 clean:
 	cargo clean
-	rm -f hello-psx-world.bin hello-psx-world.cue target/hello-psx-world.bin target/hello-psx-world.cue
+	rm -f target/hello-psx-world.bin target/hello-psx-world.cue
