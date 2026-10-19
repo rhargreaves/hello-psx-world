@@ -25,5 +25,6 @@ Outputs:
 - `target/hello-psx-world.cue`
 - `target/hello-psx-world.bin`
 
-> **Where's the boot logo??**: The logo will only show if you `make iso` when licences
-are present in `licences/` (e.g. `licensee.dat`, `licensea.dat` or `licensej.dat`). Google exists.
+> [!TIP]
+> The boot logo will only show if you `make iso` when licences are present in `licences/`
+> (e.g. `licensee.dat`, `licensea.dat` or `licensej.dat`). Google exists.
