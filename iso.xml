@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iso_project image_name="target/hello-psx-world.bin" cue_sheet="target/hello-psx-world.cue">
+    <track type="data">
+        <identifiers
+            system="PLAYSTATION"
+            application="PLAYSTATION"
+            volume="HELLO_WORLD"
+            volume_set="HELLO_WORLD"
+            publisher="RUST"
+            data_preparer="MKPSXISO"
+            copyright="PUBLIC_DOMAIN"
+        />
+        <directory_tree>
+            <file name="SYSTEM.CNF" type="data" source="SYSTEM.CNF" />
+            <file name="HELLO.EXE" type="data" source="target/mipsel-sony-psx/release/hello-psx-world.exe" />
+        </directory_tree>
+    </track>
+</iso_project>
