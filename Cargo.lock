@@ -12,5 +12,4 @@ dependencies = [
 [[package]]
 name = "psx"
 version = "0.1.8"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5a60d6f7713e5d76bbb5ae11943688c58332bce232113b996128b4c06950ab78"
+source = "git+https://github.com/ayrtonm/psx-sdk-rs?rev=800e44369a6aae612e93a602b5c52d5cb9855799#800e44369a6aae612e93a602b5c52d5cb9855799"

@@ -1,5 +1,6 @@
 #![no_std]
 #![no_main]
+#![allow(linker_messages)]
 
 use psx::Framebuffer;
 use psx::dprintln;

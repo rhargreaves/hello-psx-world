@@ -4,4 +4,4 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-psx = "0.1.8"
+psx = { git = "https://github.com/ayrtonm/psx-sdk-rs", rev = "800e44369a6aae612e93a602b5c52d5cb9855799" }
