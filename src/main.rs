@@ -9,7 +9,7 @@ const SCREEN_HEIGHT: i16 = 240;
 const FONT_WIDTH: i16 = 8;
 const FONT_HEIGHT: i16 = 8;
 
-const MSG: &str = "hello world";
+const MSG: &str = "Hello, world!";
 
 #[unsafe(no_mangle)]
 fn main() {
