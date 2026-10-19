@@ -1,8 +1,8 @@
 #![no_std]
 #![no_main]
 
-use psx::dprintln;
 use psx::Framebuffer;
+use psx::dprintln;
 
 const SCREEN_WIDTH: i16 = 320;
 const SCREEN_HEIGHT: i16 = 240;
